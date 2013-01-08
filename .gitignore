@@ -20,3 +20,9 @@ pkg
 
 ## PROJECT::SPECIFIC
 .bundle
+.idea
+bin
+
+# RAILS
+log
+

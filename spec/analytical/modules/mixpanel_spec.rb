@@ -7,7 +7,7 @@ describe "Analytical::Modules::Mixpanel" do
   describe 'on initialize' do
     it 'should set the command_location' do
       a = Analytical::Modules::Mixpanel.new :parent=>@parent, :js_url_key=>'abc'
-      a.tracking_command_location.should == :body_prepend
+      a.tracking_command_location.should == :body_append
     end
     it 'should set the options' do
       a = Analytical::Modules::Mixpanel.new :parent=>@parent, :js_url_key=>'abc'

@@ -1,4 +1,4 @@
-source :rubygems
+source "http://bundler-api.herokuapp.com"
 
 group :development, :test do
   gem 'rails', '3.0.9'
